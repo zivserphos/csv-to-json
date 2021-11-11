@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const agentSchema = new mongoose.Schema({
-  licanceId: String,
+  licenseId: String,
   name: String,
   city: String,
 });
