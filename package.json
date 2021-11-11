@@ -1,0 +1,30 @@
+{
+  "name": "csv-to-json",
+  "version": "1.0.0",
+  "description": "we are gonna convery a csv file into an array of json objects",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zivserphos/csv-to-json.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zivserphos/csv-to-json/issues"
+  },
+  "homepage": "https://github.com/zivserphos/csv-to-json#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
